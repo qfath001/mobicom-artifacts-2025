@@ -165,14 +165,18 @@ Performance is highest on **Initial Compromise** and **Pivoting**, while **Data 
 ## 10) Repository Layout
 
 ```
-├── data/                     # Place Training.csv, Testing.csv here (ignored by git)
+├── data/                     # Place Training.csv, Testing.csv here
 │   └── README.md             # Dataset link and notes (optional)
 ├── notebooks/
 │   └── MOBICOM_CODE.ipynb    # End-to-end Colab notebook (audit → modeling → eval)
 ├── docs/
 │   └── LTN+BERT_IMPROVINGF1_Colab.pdf   # Printable version of the notebook
+├── images/                   # Visualizations for README
+│   ├── classification_report.png
+│   └── confusion_matrix.png
 ├── requirements.txt          # Exact dependencies for reproducibility
 └── README.md                 # This file
+
 ```
 
 ---
