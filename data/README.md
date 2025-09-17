@@ -16,7 +16,7 @@ Do **not** commit these CSVs to Git (they’re large and are ignored via `.gitig
 - **Local:** Place the CSVs in a local `data/` folder next to this repo.
 
 ## Local/runtime layout (on your machine or Colab Drive)
-# CSVs live here when you run the notebook (NOT committed to Git)
+# CSVs live here when you run the notebook 
 mobicom-artifacts-2025/
 ├─ notebooks/
 │  └─ MOBICOM_CODE.ipynb
